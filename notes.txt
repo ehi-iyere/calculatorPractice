@@ -1,0 +1,2 @@
+loca host listening for resuest made to our comutr
+port numbers are doors inwhich information can come in through 

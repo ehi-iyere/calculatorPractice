@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <link rel="stylesheet" href="/calculator.css"/>
+        
+        <title> <%= title %> </title>
+    </head>
+    <body>
+        <div class="table">
+            
+            
+                <div class = "view">
+                    <input type="text" name="answer" size="18" maxlength="6" id="answer">
+                    
+                </div>
+            <input type="button" class="specialOperators" id="clear" name="clear" value=" AC " onclick="clearIt()">
+            <input type="button" class="specialOperators" id="plus-minus" name="plus-minus" value="+/-" onclick="operators('* -1')" >
+            <input type="button" class="specialOperators" id="percentage" name="percentage" value="&#37" onclick="operators('/100')">
+            <input type="button" class="operatorKey" name="div" value= "&#247" onclick="operators('/')">
+            <br>
+            <td><input type="button" class="numberKeys" id= "numberKeys" name="seven" value="7" onclick="insertNum(7)"></td>
+             <input type="button" class="numberKeys" name="eight" value="8" onclick="insertNum(8)"  >
+             <input type="button" class="numberKeys" name="nine" value="9" onclick="insertNum(9)" > 
+            <input type="button" class="operatorKey" name="times" value="&#215" onclick="operators('*')">
+            <br>
+            <input type="button" class="numberKeys" name="four" value="4" onclick="insertNum(4)"  >
+            <input type="button" class="numberKeys" name="five" value="5" onclick="insertNum(5)"  >
+            <input type="button" class="numberKeys" name="six" value="6" onclick="insertNum(6)"  >
+            <input type="button" class="operatorKey" name="minus" value="&#45" onclick="operators('-')">
+             <br>
+            <input type="button" class="numberKeys" name="one" value="1" onclick="insertNum(1)"  >
+            <input type="button" class="numberKeys" name="two" value="2" onclick="insertNum(2)" >
+            <input type="button" class="numberKeys" name="three" value="3" onclick="insertNum(3)"  >
+             <input type="button" class="operatorKey" name="plus" value="&#43"  onclick="operators('+')">
+             <br>
+             
+             <input  type="button" class="numberKeys" name="zero" value="0" onclick="insertNum(0)" >
+             <input type="button" class="numberKeys" name="decinal" value="." onclick="insertDec()">
+             <form class = calculation action="/history" method="POST"></form>
+             <input  type="button" class="operatorKey" name="eval" value="&#61"  onclick="evalTo()">
+             
+             <br>
+            </form>
+
+        </div>
+        <div class= "historyBlock">
+            <form name = 'history'>
+                <input type="button"  class= 'history' maxlength="
+                        15" name="firstH" value = <%= history.body  %>> </a> 
+                
+               
+                   
+                
+            
+            </form>
+        </div>
+  
+        <script type= "text/javaScript"  src="/calculator.js">
+        </script>
+        
+    </body>
+
+</html>

@@ -1,0 +1,155 @@
+body{
+    background-color: #cedfce;
+    width: 100%;
+}
+
+.table{
+    
+    background-color:#121312;
+    width: 255px;
+    height: 425px;
+    text-align: center;
+    padding-inline-end: 10px ;
+    padding-inline-start: 10px ;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.view{
+    background-color:#121312;
+    width: 245px;
+    height: 100px;
+    padding-inline-end: 10px ;
+    padding-inline-start: 10px ;
+    position: relative;
+}
+input[name=answer] {
+    background-color:#121312;
+    float: left;
+    width: 225px;
+    border-radius: 0%;
+    position:absolute;
+    text-align: end;
+    color: white;
+    font-size: 40px;
+    left: 30px;
+    top: 35px;
+    border: 0;
+  }
+input{
+    outline: 0;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    border: 0;
+    
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 80%;
+    display: block;
+    font-weight: 300;
+}
+.numberKeys{
+    background-color: rgb(31, 29, 29);
+    color: white;
+}
+.numberKeys:hover{
+    background-color: rgb(190, 186, 186);
+}
+.operatorKey{
+    background-color: orange;
+    color: white;
+    font-size: 25px;
+}
+.operatorKey:hover{
+    color: orange;
+    background-color: white;
+}
+.specialOperators{
+    background-color: rgb(167, 163, 163);
+}
+.specialOperators:hover{
+    background-color: rgb(224, 221, 221);
+}
+input[name=minus] {
+    background-color: orange;
+    color: white;
+    font-size: 25px;
+  }
+
+input[name=zero] {
+    padding: 10px 20px;
+    border-radius: 20%/50%;
+    width: 110px;
+  }
+
+
+.history{
+    background-color:  white;
+    width: 200px;
+    height: 50px;
+    color: #121312;
+    font-size: 30px;
+    text-overflow: ellipsis;
+  
+  border-radius: 0%;
+  position:relative;
+  display:inline;
+    
+    left: 5px;
+  
+    top: 10px;
+    margin: 0px;
+    border: 10px;
+    border-color: black;
+    outline-width: 4px;
+    outline-color: orange;
+    outline-style:solid;
+    float:none;
+   
+    
+}
+.historyBlock{
+    
+    height: 540px;
+    width: 210px;
+    
+    padding: 10px 20px;
+    position : relative;
+    
+}
+p2.history{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.parameter{
+    color: white;
+}
+.delete{
+    position:relative;
+    top: 0;
+    right:0px
+
+}
+.delete:hover{
+    cursor: pointer;
+    box-shadow: beige;
+}
+
+
+
+
+acttionKeyOther{
+    background-color: rgb(168, 166, 166);
+}
+
+answerBox{
+    background-color:  #121312;
+}

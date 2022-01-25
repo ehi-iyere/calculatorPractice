@@ -1,0 +1,31 @@
+Node Js crash course study 
+ 
+ Node Js is writen in  C++ , it has a V8 into it and compiles java script in machine language 
+when Node.js is downloaded on your system it turns your system into its own server 
+ patrtial template - to update information at one go
+ middleware - in between req and res 
+
+ Express router : uses to move routes into seperate files in order to keep your code clean 
+    create a router object and connect the routes to the routher
+    then export it 
+    use them like middleware 
+
+    Use an MVc approach 
+
+    controllers connect our models to view 
+
+        creating a controller file that has the handler functions 
+        export the filesuse the functions in the routerss 
+
+        nmp - library created by diffrent people packeced into npm; istead of riting things scrat h these packages are available through the npm repository 
+        express - library that makes intracting with the server easily 
+
+   //192.168.56.1  
+
+   REquest:
+
+   Get: get something from the server
+   Post: add something to our server
+   Delete: delete something from our server
+   Put: edit something on our server 
+   
